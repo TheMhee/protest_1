@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<html>
+<head>
+	<title>Content!!</title>
+</head>
+<body>
+<div class='display'>
+<div class='box'>
+	<div class='box-header'>
+		<div class='box-header-pic'></div>
+		<div class='box-header-text'></div>
+	</div>
+			
+	<div class='box-content'>
+		<div class='box-content-text'><p>วิชา : XXXXXXXXX จะเปิดเรียนชดเชยวันอาทิตย์หน้า เวลา 17.00น. นะครับ
+		มี Quiz เก็บคะแนนด้วย ถ้ามีคนเห็นด้วยเยอะผมจะเอาตามที่บอกไว้นะครับ
+		</p></div>
+		<div class='agree blink' onclick='agreeit()'>
+			<h4 class='agree-text' id='non-select'>เห็นด้วย</h4>
+		</div>
+		<div class='agree-gauge'>
+			<h4 class='agree-stat'><h4>
+		</div>
+		<div class='nope blink2' onclick='nopeit()'>
+			<h4 class='nope-text' id='non-select'>ไม่เห็นด้วย</h4>
+		</div>
+		<div class='nope-gauge'>
+			<h4 class='nope-stat'><h4>
+		</div>
+	</div>
+
+	<div class='box-stat'>
+		<div class='like' onclick="likeit()">
+			<h4 class='like-text' id='non-select'>Like</h4>	
+		</div>
+
+		<div class='dis' onclick="dislikeit()"></div>
+			<h4 class='dis-text' onclick="dislikeit()" id='non-select'>Dislike</h4>
+		</div>	
+		<div class='com' onclick='movebox()'>
+			<h4 class='com-text' id='non-select'>Comment</h4>	
+		</div>
+	</div>
+
+	<div class='box-button'>
+	</div>
+<div class='comment-box'>
+	<div class='comment'>
+		<div class='comment-pic'></div>
+		<div class='comment-text'><h4 class='comment-text-h4 first-comment'></h4></div>
+	</div>
+	<div class='comment'>
+		<div class='comment-pic'></div>
+		<div class='comment-text'><h4 class='comment-text-h4 second-comment'></h4></div>
+	</div>
+	<div class='comment'>
+		<div class='comment-pic'></div>
+		<div class='comment-text'><h4 class='comment-text-h4 third-comment'></h4></div>
+	</div>
+	<div class='comment'>
+		<div class='comment-pic'></div>
+		<div class='comment-text'></div>
+	</div>
+	<div class='comment'>
+		<div class='comment-pic'></div>
+		<div class='comment-text'>
+			<h4 class='comment-text-h4 last-comment'>สวัดดี</h4>
+		</div>
+	</div>
+	<div class='textbox' onclick='choosetext()'>
+		<h4 class="textbox-text">คลิกเพื่อเลือก Comment</h4>
+	</div>
+</div>
+<div class='comment-text-box'>
+	<div class='comment-text-box-choose' onclick='comment_pop(1)'>
+		<h4 class="choose-text">เลื่อนเวลาเร็วกว่านี้ก็ดีนะครับ</h4>
+	</div>
+	<div class='comment-text-box-choose' onclick='comment_pop(2)'>
+		<h4 class="choose-text">เป็นไปไม่ได้ของจารย์ เวลามันเย็นเกินไป</h4>
+	</div>
+	<div class='comment-text-box-choose' onclick='comment_pop(3)'>
+		<h4 class="choose-text">วันอื่นไม่ได้หรอจารย์</h4>
+	</div>
+	<div class='comment-text-box-choose' onclick='comment_pop(4)'>
+		<h4 class="choose-text">โอเคครับอาจารย์</h4>
+	</div>
+	
+</div>
+	<div class='question'>
+		<h4 class='q-tag'></h4>
+		<form method="post" action="index.php">
+    		<textarea class="q-box"  name="comment">แสดงความเห็น ระบุชื่อด้วยก็ดีนะ</textarea>
+    		<input class = 'sent' type="submit" name="submit" value="Send" id="submit"/>
+		</form>	
+	</div>
+	<script type="text/javascript" src="./script.js"></script>
+</div>
+</body>
+</html>
