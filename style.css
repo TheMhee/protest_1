@@ -257,7 +257,7 @@
 		position: absolute;
 		top:100px;
 		left:720px;
-		background-color: black;
+		background-color: red;
 		width: 420px;
 		height: 300px;
 	}
@@ -268,7 +268,7 @@
 		height:200px;
 		left:50px;
 		top:420px;
-		background-color: black;
+		background-color: red;
 	}
 	.event-box{
 		top:150px;
