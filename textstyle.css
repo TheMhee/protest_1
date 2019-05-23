@@ -62,3 +62,34 @@
     top:30px;
     font-size: 32px;
 }
+.cx-passage{
+    font-family: 'Maitree', serif;
+    position: relative;
+    font-size: 20px;
+}
+.c6-head{
+    font-family: 'Maitree', serif;
+    position: relative;
+    font-size: 32px;
+    top:10px;
+}
+.c6-passage{
+    font-family: 'Maitree', serif;
+    position: relative;
+    font-size: 20px;
+    top:20px;
+}
+.c7-head{
+    font-family: 'Maitree', serif;
+    position: relative;
+    font-size: 30px;
+    top:10px;
+}
+.c8-passage{
+    font-family: 'Maitree', serif;
+    position: relative;
+    font-size: 25px;
+}
+.en{
+    font-family: 'Quicksand', sans-serif;
+}
