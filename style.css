@@ -95,8 +95,11 @@
 		position: absolute;
 		width: 400px;
 		height: 500px;
-		background: white;
 		top:100px;
+	}
+	.c1-image{
+		background-image:url("img/UDHR.png");
+		background-size: cover; 
 	}
 	.c1-text{
 		left:420px;
@@ -151,25 +154,30 @@
 	.c3-subbox:nth-child(3){
 		top:260px;
 		height:240px;
-		width:390px;
+		width:385px;
 	}
 	.c3-subbox:nth-child(4){
 		top:260px;
-		left:405px;
+		left:400px;
 		height:240px;
-		width:390px;
+		width:385px;
 	}
 	.c3-subbox:nth-child(5){
 		top:260px;
-		left:810px;
+		left:800px;
 		height:240px;
-		width:390px;
+		width:385px;
 	}
 	.c3-subbox:nth-child(6){
-		top:510px;
+		top:512px;
 		left:375px;
 		height:180px;
 		width:450px;
+	}
+	.c3-img{
+		border:5px solid black;
+		width:100%;
+		height:100%;
 	}
 	.timeline{
 		position: relative;
@@ -297,7 +305,7 @@
 		position: absolute;
 		width: 200px;
 		height: 300px;
-		background-color: black;
+		background-color: grey;
 		left: 200px;
 	}
 	.c6-subbox:nth-child(1){
@@ -319,7 +327,7 @@
 	}
 	.c7-subbox{
 		position: absolute;
-		background-color: black;
+		background-color: grey;
 
 	}
 	.c7-subbox:nth-child(1){
