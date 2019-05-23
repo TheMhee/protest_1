@@ -35,6 +35,10 @@
 .c1-passage{
     font-family: 'Maitree', serif;
 }
+.c1p{
+    font-size: 35px;
+    font-weight: 800;
+}
 .c3-head{
     position: relative;
     top:40px;
