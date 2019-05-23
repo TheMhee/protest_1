@@ -15,7 +15,9 @@ body {
 	-moz-user-select: none;
 }
 /*กล่องโพส*/
-
+.comment-pic{
+	background-color: red;
+}
 .box{
 	top:155px;
 	padding: 10px;
@@ -37,7 +39,7 @@ body {
 	height:60px;
 	width:60px;
 	position: relative;
-	background-color: hsl(0, 0%, 50%);
+	background-image: url("img/teacher.jpg");
 	top:10px;
 	left:10px;
 	border-radius: 10px;
@@ -319,5 +321,4 @@ body {
 	top:5vh;
 	}
 }
-
 

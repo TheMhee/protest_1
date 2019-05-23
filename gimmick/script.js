@@ -253,6 +253,7 @@ function therun(){
 		setTimeout(function() { document.querySelector('.comment:nth-child(2)').style.transform = 'scale(0)'},2500);
 		setTimeout(function() { document.querySelector('.comment:nth-child(1)').style.transform = 'scale(0)'},3000);
 		setTimeout(function() { 
+			document.querySelector('.comment:nth-child(1) ~ .comment-pic').style.backgroundImage = 'url("img/teacher.jpg")';
 			document.querySelector('.first-comment').innerText = 'สรุปแล้วคือเปิดคลาสนะครับ'
 			document.querySelector('.comment:nth-child(1)').style.transform = 'scale(1)'
 		},4000);
