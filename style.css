@@ -114,7 +114,7 @@
 		position: absolute;
 		width: 150px;
 		height: 150px;
-		background-color: grey;
+		/background-color: grey;
 	}
 	.c2-subbox:nth-child(1){
 		left:100px;
@@ -140,7 +140,7 @@
 	}
 	.c3-subbox{
 		position: absolute;
-		background-color: grey;
+		/background-color: grey;
 	}
 	.c3-subbox:nth-child(1){
 		height:80px;
@@ -174,7 +174,7 @@
 		height:180px;
 		width:450px;
 	}
-	.c3-img{
+	.c-img{
 		border:5px solid black;
 		width:100%;
 		height:100%;
@@ -271,11 +271,10 @@
 	}
 	.cx-subboxa{
 		position: absolute;
-		top:50px;
 		width:1090px;
 		height:200px;
 		left:50px;
-		top:420px;
+		top:440px;
 		background-color: red;
 	}
 	.event-box{

@@ -1,0 +1,64 @@
+.article{
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.a20{
+    font-size: 90px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 60px;
+    text-align: center;
+}
+.c2-head{
+    position: relative;
+    top:20px;
+    font-size: 30px;
+    font-family: 'Maitree', serif;
+    
+    
+}
+.c2-passage{
+    position: relative;
+    top:30px;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: 'Maitree', serif;
+    
+    
+}
+.c2-passage:nth-child(5){
+    text-align: center;
+}
+.c1-head{
+    font-family: 'Quicksand', sans-serif;
+}
+.c1-passage{
+    font-family: 'Maitree', serif;
+}
+.c3-head{
+    position: relative;
+    top:40px;
+    font-family: 'Maitree', serif;
+    font-size: 30px;
+    left:50px;
+}
+.c3-passage{
+    position: relative;
+    top:15px;
+    font-family: 'Maitree', serif;
+    font-size: 18px;
+    left:50px;
+}
+.q{
+    position: relative;
+    top:70px;
+    font-size: 25px;
+    text-align: center;
+    left:0px;
+}
+.cx-head{
+    font-family: 'Maitree', serif;
+    position: relative;
+    top:30px;
+    font-size: 32px;
+}
