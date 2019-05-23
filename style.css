@@ -207,7 +207,7 @@
 	.minitext{
 		position: absolute;
 		left:40px;
-		background-color: hsl(25, 100%, 50%);
+		background-color: transparent;
 		top:10px;
 		width:80px;
 		border:0px;
